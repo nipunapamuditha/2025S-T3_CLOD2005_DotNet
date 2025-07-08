@@ -7,9 +7,9 @@ permissions:
       contents: read
 
 env:
-  AZURE_WEBAPP_NAME: 500238003CLOD    # Your App Service name
-  AZURE_WEBAPP_PACKAGE_PATH: './src'  # Path to your project
-  DOTNET_VERSION: '8.0.x'             # Your .NET version
+  AZURE_WEBAPP_NAME: 500238003CLOD
+  AZURE_WEBAPP_PACKAGE_PATH: './src'
+  DOTNET_VERSION: '8.0.x'
 
 jobs:
   build:
